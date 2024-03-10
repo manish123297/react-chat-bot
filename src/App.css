@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body{
+  left:0;
+  top:0;
+  background-color:#efefef;
+}
+.react-chatbot-kit-chat-container {
+  background-color: aqua;
+  width:100% !important;
+  position: fixed;
+  height: 100% !important;
+  margin-top: 20px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-chatbot-kit-chat-inner-container {
+ 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-chatbot-kit-chat-header {
+ 
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.react-chatbot-kit-chat-input-container {
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.react-chatbot-kit-chat-message-container {
+  background-color: skyblue;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-chatbot-kit-chat-input {
+}
+
+.react-chatbot-kit-chat-input-form {
+  margin-top: 30px !important;
+
+}
+
+.react-chatbot-kit-chat-input::placeholder {
+}
+
+.react-chatbot-kit-chat-btn-send {
+  width: 300px !important;
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon {
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+}
+
+.react-chatbot-kit-chat-bot-message {
+  float: left !important;
+    margin-left: 5px !important;
+    width: 300.5px !important;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+}
+
+.react-chatbot-kit-chat-bot-loading-icon-container {
+}
+
+.chatbot-loader-container {
+}
+
+#chatbot-loader #chatbot-loader-dot1 {
+}
+
+#chatbot-loader #chatbot-loader-dot2 {
+}
+
+#chatbot-loader #chatbot-loader-dot3 {
+}
+
+.react-chatbot-kit-error {
+}
+
+.react-chatbot-kit-error-container {
+}
+
+.react-chatbot-kit-error-header {
+}
+
+.react-chatbot-kit-error-docs {
 }
